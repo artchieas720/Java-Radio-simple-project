@@ -224,7 +224,7 @@ public class RadioVisualGUI {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 ActualStation = URLsList.getSelectedValue();
-                RadioNameOutput.setText("aktualnie wybrana stacja :  "  + ActualStation);
+                RadioNameOutput.setText("actual station :  "  + ActualStation);
                  id = URLsList.getSelectedIndex();
                 ActualUrlToPlay = stations.get(id).getUrl();
 //        ActualUrlToPlay = (String) listOfStations.getElementAt(index);
